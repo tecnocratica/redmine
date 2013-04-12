@@ -34,6 +34,8 @@ platforms :jruby do
   gem "activerecord-jdbc-adapter", "1.2.5"
 end
 
+gem 'unicorn'
+
 # Include database gems for the adapters found in the database
 # configuration file
 require 'erb'
